@@ -24,5 +24,8 @@ The code is tested and developed  in macos 12.5.1 and using pyton 3.10.6. But th
 7. Open the link and you are good to go
 8. Simple !
 
+## For More Reference :
++ STREAMLIT :https://docs.streamlit.io/
+
 
 Copyright © 2022 Sree Ajay. All rights reserved
