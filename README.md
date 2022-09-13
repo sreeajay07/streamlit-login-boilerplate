@@ -11,7 +11,7 @@ Its basically a login page that fetches the input from the users and processes o
 
 
 ## Compatibility
-The code is tested and developed  in macos 12.5.1 and using pyton 3.10.6. But the code has the realiability to run on most of the configuration . If you face issues , do open up an issue for this repo .All the package dependencies are mentioned in requirements.txt.
+The code is tested and developed  in macos 12.5.1 and using pyton 3.10.6. But the code has the realiability to run on most of the configuration . If you face issues , do open up an issue for this repo .
 
 
 ## Steps to run the code in browser
