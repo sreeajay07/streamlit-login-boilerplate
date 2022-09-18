@@ -35,11 +35,7 @@ def is_authenticated(username, password):
 def generate_login_block():
     block1 = st.empty()
     block2 = st.empty()
-    return block1, block2
-    
-def generate_signin_block():
-	block6=st.empty()
-	block7=st.empty()	
+    return block1, block2	
 
 def generate_title_block(title):
     block0 = st.title(title)
@@ -87,8 +83,7 @@ def password_login(blocks):
 def button_click(block):
     if st.button=='login' : 
         return block.button('Login')
-    else :
-        return block.button('signin')
+
 # @st.cache(suppress_st_warning=True)
 # @st.cache(persist=True)
     
@@ -102,7 +97,7 @@ def main():
     with left:
         a= st.button('login')
     with right:
-        b= st.button('sign in')    
+        pass
     if a:
        
         st.info("sucess")
@@ -124,10 +119,6 @@ def main():
             # with open('login_status.json', 'w') as json_file:
             #     json.dump(login_dict , json_file)
             # new_page()
-            
-            
-    elif b:
-        st.error('This is an error', icon="🚨")
               
             
 
