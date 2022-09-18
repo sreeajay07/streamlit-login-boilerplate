@@ -1,8 +1,8 @@
-# streamlt-login-boilerplate
+# streamlit-login-boilerplate
 login page using streamlit
 
 
-Its basically a login page that fetches the input from the users and processes on that input and performs either login or signin operation
+Its basically a login page that fetches the input from the users and processes on that input and performs login operation
 
 
 <p align="center"> 
